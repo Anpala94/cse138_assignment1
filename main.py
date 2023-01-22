@@ -24,7 +24,7 @@ def process_hello():
         return (output_string, status_code)
 
 @app.route('/check', methods = ['GET', 'POST'])
-def process_hello():
+def process_check():
     if request.method == 'GET':
         output_string = "All is well!"
         status_code = 200
